@@ -1,0 +1,199 @@
+﻿/*
+ Theme Name:   Elemento Photography
+ Theme URI:    https://greenturtlelab.com/downloads/elemento-photography
+ Author: Greenturtlelab
+ Author URI: http://greenturtlelab.com
+ Text Domain: elemento-photography
+ Template: elemento
+ Description:  Elemento  Photography is a gutenberg compatible child theme of the stunning Elemento theme. is a multi-purpose photography theme that is perfect for building any type of site that requires bold imagery and beautiful photo galleries. It is perfect for professional photographers, photo bloggers, travel websites, portfolio websites, business websites or any or website where your galleries and images need to impress visitors. Large, bold images will have your site visitors in awe and an included parallax pre-made template will add visual interest to your home and landing pages. The responsive layout is optimized for all devices. It’s a fast, SEO-friendly that plays nicely with Elementor and all other visual builders.
+ Tags: blog, one-column, two-columns, left-sidebar, right-sidebar, custom-header, custom-background, custom-logo, custom-menu, custom-colors, flexible-header, threaded-comments, translation-ready, featured-images, theme-options, full-width-template, photography, portfolio
+ Version:      1.0.0
+ License: GPL-2.0
+ License URI: https://www.gnu.org/licenses/gpl-2.0.php
+ */
+
+
+.gallery-tiles {
+
+    padding: 0px;
+
+}
+
+.right-col {
+    color: #fff;
+    padding: 10%;
+    text-align: left;
+    min-height: 500px;
+}
+.about-row {
+    
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.full-wd {
+
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.custom-sec1, .custom-sec2 {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.gallery-title {
+    text-align: center;
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700;
+    padding: 15% 10%;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.gal-img {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.image-holder {
+    display: none;
+}
+
+#secondary-menu {
+    display:inline-grid;
+}
+
+footer li.current-menu-item {
+
+    background-color: rgba(0,0,0,0) !important;
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: #fff;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer-btm {
+    background:#000;
+    border-top: none;
+}
+
+.copyright span { 
+    color:#fff;
+}
+
+.paypal { color:#fff; }
+.social_icons {
+    display:inline-flex;
+    
+}
+
+.social_icons a {
+    padding:10px;
+}
+.gtl-menu a {
+    color: #2a9cad !important;
+    background: none !important;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+/*Theme Updated*/
+.social_icons a {
+    padding:10px;
+}
+.gtl-menu a {
+    color: #2a9cad !important;
+    background: none !important;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+
+.fa-angle-right::before {
+    content: "\f105";
+    font-style: normal;
+    font-weight: 700;
+    font-size:40px;
+}
+.fa-angle-left::before {
+    content: "\f104";
+    font-style: normal;
+    font-weight: 700;
+    font-size:40px;
+}
+.white-bg-1 {
+    background:#1f2024;   
+}
+.main-footer {
+    padding: 25px 20px;
+}
+footer .container {
+    min-height:200px;
+}
+fooer .menu-main {
+   padding-left: 75px;
+}
+.ft-col-2 {
+    padding-top: 50px;
+}
+.ft-col-2 .custom__item-inner {
+    padding-top: 30px;
+     text-align: center;
+}
+.ft-col-3 .custom__item-inner {
+    padding-top: 60px;
+     text-align: center;
+}
+.ft-col-3 .fa {
+    font-size:28px;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=gb18030">
+    <title>Contacto</title>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/leanevent.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<script>
+  function validate(){
+  var firstname=document.getElementById('firstname').value;
+  var regex1=/^[a-zA-Z]+$/; 
+  var res1=regex1.test(firstname);
+  if(res1==false){
+  alert("Enter valid firstname");
+  return false;
+  }
+  
+  var lastname=document.getElementById('lastname').value;
+  var regex2=/^[a-zA-Z]+$/;
+  var res2=regex2.test(lastname);
+  if(res2==false){
+  alert("Enter valid  lastname");
+  return false;
+  }
+  
+  var mail=document.getElementById('mail').value;
+  var regex20=/^[a-zA-Z0-9]+@[a-zA-Z]+\.[a-zA-Z]+$/;
+  var res20=regex20.test(mail);
+  if(res20==false){
+  alert("Enter mail");
+  return false;
+  }
+  
+   var topic=document.getElementById('topic').value;
+  var regex3=/[a-zA-Z0-9]+/;
+  var res3=regex3.test(topic);
+  if(res3==false){
+  alert("Enter valid topic");
+  return false;
+  }
+  
+   var message = document.getElementById('message').value;
+  var regex4=/[a-zA-Z0-9]+/;
+  var res4=regex4.test(message);
+  if(res4==false){
+  alert("Enter valid message");
+  return false;
+  }
+      
+  }
+</script>
+<style>
+    .asterisk{
+        color:red;
+    }
+</style>
+</head>
+
+<body class="wrapper">
+    <div id="nav">
+        <ul id="logo-menu">
+            <li><img src="imagenes/logo-blanco.png" /></li>
+            <li> LEANEVENTOS</li>
+        </ul>
+        <ul id="menu">
+            <li> <a href="index.php"> Inicio </a> </li>
+            <li> <a href="QuienesSomos.php"> Quienes Somos</a></li>
+            <li> <a href="http://prajakta.uta.cloud/"> Blog </a></li>
+            <li> <a href="Registrate.php"> Registrate </a></li>
+            <li> <a href="Contacto.php"> Contacto </a></li>
+            <li> <a href="IniciarSesion.php"> Iniciar sesion </a></li>
+            <li> <a href="ComprarBoletos.php"> Comprar Boletos</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <img src="imagenes/bannercontacto.jpg" alt="Banner" id="bottombanner" href="Contacto.php">
+        <span class="caption1">CONTACTO</span>
+        <span class="under_text">INICIO</span>
+        <span class="under_text1">CONTACTO</span>
+    </div>
+    <div id="information-form">
+        <h3>
+            Informacion del contacto
+        </h3>
+        <ul id="infomation-board">
+            <li>
+                <div><i class="fas fa-map-marker-alt" aria-hidden="true"></i>&nbsp;198 west 21st street <br> Suite 721,New
+                    York NY10016</div>
+            </li>
+            <li>
+                <div><i class="fas fa-phone"></i>&nbsp;+1234567898</div>
+            </li>
+            <li>
+                <div><i class="far fa-paper-plane"></i>&nbsp;<a href="mailto:info@diazapps.com">info@diazapps.com</a></div>
+            </li>
+            <li>
+                <div><i class="fas fa-globe"></i>&nbsp;<a href="www.diazapps.com">diazapps.com</a></div>
+            </li>
+        </ul>
+
+        <div id="social-media1">
+            <h3>
+                LEAN en las redes sociales
+            </h3>
+            <ul id="social-media-links">
+                <li>
+                    <div><img src="imagenes/facebook.png" height="20px" width="20px"><br>LEAN Ayuda Humanitaria</div>
+                </li>
+                <li>
+                    <div><img src="imagenes/twitter.png" height="20px" width="20px"><br>@LeanEmergente</div>
+                </li>
+                <li>
+                    <div><img src="imagenes/instagram.png" height="20px" width="20px"> <br> @LeanAyudaHumanitaria</div>
+                </li>
+                <li>
+                    <div><img src="imagenes/correo.png" height="20px" width="20px"> <br> lean.emergente@gmail.com</div>
+                </li>
+            </ul>
+        </div>
+        <div id="contact-form">
+            <form name="contact-form" action="" onsubmit="return validate()" method="post">
+                <ul id="row1">
+                    <li><label for="firstname">Nombre<span class="asterisk">*</span></label><input type="text" id="firstname" placeholder="Tu Nombre" required autocomplete="no"></li>
+                    <li><label for="lastname">Apellido<span class="asterisk">*</span></label><input type="text" id="lastname" placeholder="Tu Apellido" required autocomplete="no"></li>
+                </ul>
+                <div class="row23">
+                    <label for="mail">Correo<span class="asterisk">*</span></label><input type="text" id="mail" placeholder="Tu correo electronico" required autocomplete="no">
+                </div>
+                <div class="row23">
+                    <label for="topic">Tema<span class="asterisk">*</span></label><input type="text" id="topic" placeholder="Su asunto de este mensaje" required autocomplete="no">
+                </div>
+                <div id="text-field">
+                    <label for="message">Mensaje<span class="asterisk">*</span></label> <textarea name="mensaje" id="message" cols="30" rows="10"
+                        placeholder="Di algo sobrenosotros" required autocomplete="no"></textarea>
+                </div>
+                <input type="submit" id="submit" value="Enviar Mensaje"/>
+            </form>
+        </div>
+        <br><br>
+        <div id="heading">
+            <p>LEAN EN LAS REDES SOCIALES</p>
+        </div>
+        <ul id="social-media">
+            <li> <i class="fab fa-twitter"></i> </li>
+            <li> <i class="fab fa-facebook-f"></i> </li>
+            <li><i class="fab fa-instagram" aria-hidden="true"></i> </li>
+        </ul>
+        
+        <ul id="copy">
+            <li>Copyright</li>
+            <li><i class="fa fa-copyright" aria-hidden="true"></i>2019</li>
+            <li>All rights reserved | This web is made with </li>
+            <li><i class="fa fa-heart-o" aria-hidden="true"></i> by </li>
+            <p>DiazApps</p>
+        
+        </ul>
+        <a href="#top"><img src="imagenes/top_button.png" id="top-icon" /></a>
+    </div>
+</body>
+
+</html>

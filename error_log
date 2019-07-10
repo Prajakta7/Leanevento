@@ -1,0 +1,36 @@
+[05-Apr-2019 04:13:02 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/prajakta/public_html/JALISATGI_LEANEVENT/connection.php on line 15
+[05-Apr-2019 04:13:04 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/prajakta/public_html/JALISATGI_LEANEVENT/connection.php on line 15
+[05-Apr-2019 04:13:31 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/prajakta/public_html/JALISATGI_LEANEVENT/connection.php on line 15
+[05-Apr-2019 04:13:32 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/prajakta/public_html/JALISATGI_LEANEVENT/connection.php on line 15
+[05-Apr-2019 04:13:33 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/prajakta/public_html/JALISATGI_LEANEVENT/connection.php on line 15
+[05-Apr-2019 04:13:49 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/prajakta/public_html/JALISATGI_LEANEVENT/connection.php on line 15
+[05-Apr-2019 04:16:40 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/prajakta/public_html/JALISATGI_LEANEVENT/connection.php on line 15
+[05-Apr-2019 04:17:50 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/prajakta/public_html/JALISATGI_LEANEVENT/connection.php on line 15
+[05-Apr-2019 04:17:59 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/prajakta/public_html/JALISATGI_LEANEVENT/connection.php on line 15
+[05-Apr-2019 04:20:18 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/prajakta/public_html/JALISATGI_LEANEVENT/connection.php on line 15
+[05-Apr-2019 04:20:19 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/prajakta/public_html/JALISATGI_LEANEVENT/connection.php on line 15
+[05-Apr-2019 04:20:20 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/prajakta/public_html/JALISATGI_LEANEVENT/connection.php on line 15
+[22-Apr-2019 21:09:18 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/prajakta/public_html/JALISATGI_LEANEVENTO/connection.php on line 8
+[22-Apr-2019 21:09:22 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/prajakta/public_html/JALISATGI_LEANEVENTO/connection.php on line 8
+[22-Apr-2019 21:09:24 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/prajakta/public_html/JALISATGI_LEANEVENTO/connection.php on line 8
+[22-Apr-2019 21:09:26 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/prajakta/public_html/JALISATGI_LEANEVENTO/connection.php on line 8
+[22-Apr-2019 21:11:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/prajakta/public_html/JALISATGI_LEANEVENTO/ComprarBoletos.php on line 26
+[22-Apr-2019 21:11:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/prajakta/public_html/JALISATGI_LEANEVENTO/ComprarBoletos.php on line 26
+[22-Apr-2019 21:13:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/prajakta/public_html/JALISATGI_LEANEVENTO/ComprarBoletos.php on line 26
+[22-Apr-2019 21:46:55 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'prajakta_second'@'localhost' to database 'prajakta_second' in /home/prajakta/public_html/JALISATGI_LEANEVENTO/connection.php on line 8
+[22-Apr-2019 21:46:58 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'prajakta_second'@'localhost' to database 'prajakta_second' in /home/prajakta/public_html/JALISATGI_LEANEVENTO/connection.php on line 8
+[22-Apr-2019 21:48:13 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'prajakta_second'@'localhost' to database 'prajakta_second' in /home/prajakta/public_html/JALISATGI_LEANEVENTO/connection.php on line 8
+[22-Apr-2019 21:50:50 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'prajakta_second'@'localhost' to database 'prajakta_second' in /home/prajakta/public_html/JALISATGI_LEANEVENTO/connection.php on line 8
+[22-Apr-2019 21:50:53 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'prajakta_second'@'localhost' to database 'prajakta_second' in /home/prajakta/public_html/JALISATGI_LEANEVENTO/connection.php on line 8
+[22-Apr-2019 21:51:46 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'prajakta_second'@'localhost' to database 'prajakta_second' in /home/prajakta/public_html/JALISATGI_LEANEVENTO/connection.php on line 8
+[22-Apr-2019 21:51:48 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'prajakta_second'@'localhost' to database 'prajakta_second' in /home/prajakta/public_html/JALISATGI_LEANEVENTO/connection.php on line 8
+[22-Apr-2019 21:51:51 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'prajakta_second'@'localhost' to database 'prajakta_second' in /home/prajakta/public_html/JALISATGI_LEANEVENTO/connection.php on line 8
+[22-Apr-2019 21:51:58 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'prajakta_second'@'localhost' to database 'prajakta_second' in /home/prajakta/public_html/JALISATGI_LEANEVENTO/connection.php on line 8
+[22-Apr-2019 21:52:00 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'prajakta_second'@'localhost' to database 'prajakta_second' in /home/prajakta/public_html/JALISATGI_LEANEVENTO/connection.php on line 8
+[22-Apr-2019 21:52:02 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'prajakta_second'@'localhost' to database 'prajakta_second' in /home/prajakta/public_html/JALISATGI_LEANEVENTO/connection.php on line 8
+[22-Apr-2019 21:57:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/prajakta/public_html/JALISATGI_LEANEVENTO/ComprarBoletos.php on line 26
+[22-Apr-2019 23:56:56 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'prajakta_test'@'localhost' to database 'prajakta_test' in /home/prajakta/public_html/JALISATGI_LEANEVENTO/connection.php on line 8
+[23-Apr-2019 01:19:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/prajakta/public_html/JALISATGI_LEANEVENTO/AddEvent.php:40) in /home/prajakta/public_html/JALISATGI_LEANEVENTO/AddEvent.php on line 42
+[23-Apr-2019 01:20:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/prajakta/public_html/JALISATGI_LEANEVENTO/Eventos.php on line 85
+[23-Apr-2019 02:56:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/prajakta/public_html/JALISATGI_LEANEVENTO/Eventos.php on line 85
+[28-Apr-2019 22:30:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/prajakta/public_html/JALISATGI_LEANEVENTO/Eventos.php on line 87
